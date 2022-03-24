@@ -1,4 +1,12 @@
 .container {
+  margin: 3rem;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: lightsalmon;
+}
+
+.header__navigation a {
+  padding-left: 1rem;
 }
