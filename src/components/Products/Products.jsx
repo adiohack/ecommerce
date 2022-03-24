@@ -1,8 +1,10 @@
-// import { useState, useEffect } from "react";
+import React from "react";
 import "./styles.css";
 
-const Products = () => {
-  return <div className="pro">Products</div>;
-};
+class Products extends React.Component {
+  render() {
+    return <p>Products</p>;
+  }
+}
 
 export default Products;

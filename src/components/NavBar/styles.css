@@ -1,12 +1,22 @@
 .container {
-  margin: 3rem;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: lightsalmon;
+}
+
+.container a {
+  color: black;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: red;
 }
 
 .header__navigation a {
   padding-left: 1rem;
+}
+
+.actions a {
+  padding-right: 1rem;
 }
