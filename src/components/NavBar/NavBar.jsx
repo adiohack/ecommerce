@@ -12,7 +12,9 @@ class NavBar extends React.Component {
         </div>
         <div className="actions">
           <a href="/">$</a>
-          <a href="/">cart</a>
+          <a href="/">
+            <img src="./icons8-cart-24.png" alt="cart" />
+          </a>
         </div>
       </div>
     );

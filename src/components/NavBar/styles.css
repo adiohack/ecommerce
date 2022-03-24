@@ -5,12 +5,16 @@
 }
 
 .container a {
+  font-weight: 500;
   color: black;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .container a:hover {
-  color: red;
+  border-bottom: 4px solid green;
+  color: green;
+  border-color: green;
 }
 
 .header__navigation a {
