@@ -1,14 +1,17 @@
+import React from "react";
 import "./App.css";
 import { NavBar, Products } from "./components";
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <h1>Category name</h1>
-      <Products />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <NavBar />
+        <h1>Category name</h1>
+        <Products />
+      </div>
+    );
+  }
 }
 
 export default App;
